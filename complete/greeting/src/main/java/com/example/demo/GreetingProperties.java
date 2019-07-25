@@ -6,7 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * @author Ryan Baxter
  */
-@ConfigurationProperties()
+@ConfigurationProperties(prefix = "greeting")
 public class GreetingProperties {
 
 	String greeting;

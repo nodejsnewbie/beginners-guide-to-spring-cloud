@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>name</artifactId>
+	<artifactId>port</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>name</name>
+	<port>port</port>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -74,7 +74,7 @@
 	<repositories>
 		<repository>
 			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
+			<port>Spring Milestones</port>
 			<url>https://repo.spring.io/libs-milestone</url>
 			<snapshots>
 				<enabled>false</enabled>
@@ -85,7 +85,7 @@
 	<pluginRepositories>
 		<pluginRepository>
 			<id>spring-snapshots</id>
-			<name>Spring Snapshots</name>
+			<port>Spring Snapshots</port>
 			<url>https://repo.spring.io/snapshot</url>
 			<snapshots>
 				<enabled>true</enabled>
@@ -93,7 +93,7 @@
 		</pluginRepository>
 		<pluginRepository>
 			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
+			<port>Spring Milestones</port>
 			<url>https://repo.spring.io/milestone</url>
 			<snapshots>
 				<enabled>false</enabled>
@@ -101,7 +101,7 @@
 		</pluginRepository>
 		<pluginRepository>
 			<id>spring-releases</id>
-			<name>Spring Releases</name>
+			<port>Spring Releases</port>
 			<url>https://repo.spring.io/release</url>
 			<snapshots>
 				<enabled>false</enabled>

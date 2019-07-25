@@ -5,16 +5,16 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * @author Ryan Baxter
  */
-@ConfigurationProperties
+@ConfigurationProperties(prefix = "server")
 public class NameProperties {
 
-	private String name;
+	private String port;
 
-	public String getName() {
-		return name;
+	public String getPort() {
+		return port;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setPort(String port) {
+		this.port = port;
 	}
 }

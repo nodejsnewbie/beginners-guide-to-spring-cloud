@@ -14,7 +14,7 @@ public class NameBase {
 	@Before
 	public void setup() {
 		NameProperties nameProperties = new NameProperties();
-		nameProperties.setName("Ryan");
+		nameProperties.setPort("Ryan");
 		RestAssuredMockMvc.standaloneSetup(new NameController(nameProperties));
 	}
 }
