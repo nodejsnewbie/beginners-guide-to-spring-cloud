@@ -1,11 +1,9 @@
 server:
-  port: 7070
-  
-name: Ryan
-names:
-  - Baxter
-  - Dave
-  - Spencer
-  - Jon
-  - Marcin
-  - Adrian
+  port: 9090
+greeting:
+  greeting: Hello
+  greetings:
+    EN: Hello
+    ES: Hola
+    DE: Hallo
+    ZH: 你好
