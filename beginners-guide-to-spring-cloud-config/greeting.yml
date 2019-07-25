@@ -1,7 +1,8 @@
 server:
   port: 9090
-greeting: Hello
-greetings:
-  EN: Hello
-  ES: Hola
-  ZH: 你好
+greeting:
+  greeting: Hello
+  greetings:
+    EN: Hello
+    ES: Hola
+    ZH: 你好
